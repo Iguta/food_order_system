@@ -1,0 +1,47 @@
+
+img{
+    padding-bottom: 20px;
+    width: 150px;
+    height: 180px;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 10px;
+}
+.card{
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.bttn{
+    width: 100px;
+    position: relative;
+    margin: 0px auto;
+    margin-bottom: 25px;
+}
+#quantity{
+    margin-top: 10px;
+    width: 80%;
+}
+#order_summary{
+    width: 300px;
+    margin: 0px auto;
+    margin-bottom: 25px;
+}
+
+#order-summary{
+    visibility: hidden;
+}
+#orderBttn{
+    visibility: hidden;
+}
+label, input{
+    font-size: 20px;
+}
+input{
+    border: 3px solid #661d47;
+    border-radius: 15px;
+}
