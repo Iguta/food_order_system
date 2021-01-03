@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    text-align: center;
+    width: 100%;
+    display: inline-flex;
+    justify-content: left;
+    background-attachment: fixed;
+    background-color: rgba(235, 220, 134, 0.5);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.am {
+    color: green;
+}
+
+.nav {
+    margin: 50px 5px 5px 5px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.nav ul {
+    margin: 5px auto;
+    width: 600px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0.2);
+    font-family: 'Permanent Marker', cursive;
+}
+
+.nav li {
+    margin: 6px 10px 0px 0px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nav li a {
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 24px;
+    transition: 1s;
+    padding: 25px 30px;
+}
+
+.nav li a:hover {
+    transition: 1s;
+    background: rgba(255, 255, 255, 0.7);
+    color: orangered;
+}
+
+img {
+    padding-bottom: 20px;
+    width: 170px;
+    height: 200px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 10px;
+}
+
+.card {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.bttn {
+    width: 100px;
+    position: relative;
+    margin: 0px auto;
+    margin-bottom: 25px;
+}
+
+#quantity {
+    margin-top: 10px;
+    width: 80%;
+}
+
+#order_summary {
+    width: 300px;
+    margin: 0px auto;
+    margin-bottom: 25px;
+}
+
+#order-summary {
+    visibility: hidden;
+}
+
+#orderBttn {
+    visibility: hidden;
+}
+
+label,
+input {
+    font-size: 18px;
+}
+
+input {
+    border: 3px solid #661d47;
+    border-radius: 15px;
+}
